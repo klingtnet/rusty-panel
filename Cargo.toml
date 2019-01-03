@@ -1,0 +1,16 @@
+[package]
+name = "panel"
+version = "0.1.0"
+authors = ["Andreas Linz <klingt.net@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+gio = "^0"
+gdk = "^0"
+gtk = {version = "0.5", features = ["v3_22"]}
+serde = "1.0"
+serde_derive = "1.0"
+serde_yaml = "0.8"
+getopts = "0.2"
+failure = "0.1"
+shellexpand = "1.0"
