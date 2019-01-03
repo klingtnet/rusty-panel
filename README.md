@@ -1,7 +1,7 @@
 # rusty-panel (WIP)
 
 *rusty-panel* is a simple GTK based graphical panel that shows the single line output of an arbitrary command, e.g. the output of a shell script.
-An example script is shown in <./panel.sh>.
+An example script is shown in `./panel.sh`.
 
 I intended to use this as an replacement for the `xfce4-panel`.
 Configuration of desktop is usually done through graphical menus often and
