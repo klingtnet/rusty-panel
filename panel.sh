@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-_DATE="$(date --rfc-3339=seconds)"
+_DATE="$(date --iso-8601=minutes)"
 _USER="$(whoami)"
 _HOST="$(hostname)"
 _WIFI="$(nmcli --terse --fields name connection show --active | tr ' ' _ | xargs | tr ' ' ,)"

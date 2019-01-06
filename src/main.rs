@@ -37,7 +37,7 @@ impl Default for Config {
         Config {
             cmd: "date".to_string(),
             hide_delay_ms: 500,
-            timeout_s: 1,
+            timeout_s: 5,
         }
     }
 }
